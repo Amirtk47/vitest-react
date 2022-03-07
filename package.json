@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vitest --ui --open false",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "coverage": "vitest run --coverage",
